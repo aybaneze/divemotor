@@ -1,0 +1,33 @@
+.Note{
+    background-color: rgb(255, 242, 242);
+    padding: 20px;
+    color: #000000;
+    margin-top: 10px;
+    font-size:19px;
+}
+li{
+    list-style: none;
+    border-top: #000000 2px solid;
+    margin-top: 10px;
+}
+
+span{
+    margin:5px 15px 5px 0;
+    float: right;
+    cursor: pointer;
+}
+
+#checked {
+    text-decoration: line-through;
+    background: red;
+  }
+
+p{
+    font-weight: 1000;
+}
+
+h1{
+    font-size:16px;
+    background: #000000;
+    color: white;
+}
