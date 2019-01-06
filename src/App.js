@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Note from './componentes/Note.jsx';
-import Form from './noteForm/form.jsx';
-import firebase from 'firebase';
-import {db_config} from './config/config.js';
-import 'firebase/database'; 
+
 
 class App extends Component {
   constructor(props){
@@ -18,9 +14,16 @@ class App extends Component {
   
   render() {
     return (
-      <div className="notesContainer">         
-          {this.userLog(this.state.notes)}                
-        </div>
+      <div className="body">         
+        <div className="form">
+          <label>Ingrese Nombre</label>
+          <input className="ipt"></input><br/>
+          <label>Ingrese Apellidos</label>
+          <input className="ipt"></input><br/>
+          <button>VISUALIZAR</button>
+          <button>DESCARGAR</button>
+        </div>                
+      </div>
     );
   }
 }
