@@ -2,11 +2,13 @@
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aybaneze.github.io/lim-2018-01-todo-list-frameworks",
+  "homepage": "http://aybaneze.github.io/divemotor",
   "dependencies": {
-    "firebase": "^5.5.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "axios": "^0.18.0",
+  
+    "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.7.0",
     "react-scripts": "1.1.5"
   },
   "scripts": {

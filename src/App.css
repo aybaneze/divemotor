@@ -1,5 +1,8 @@
 body {
-  background: rgb(3, 138, 148);
+  background-image: url("http://www.fondosblackberry.com/user-content/uploads/wall/o/86/Plaza_Mayor_Lima_Peru.JPG");
+  background-size: cover;
+ 
+
   /* fallback for old browsers */
   display: flex;
   margin: 0;
@@ -11,10 +14,13 @@ body {
 
 .form {
   background: #ffffff;
+  -webkit-box-shadow: 6px 6px 26px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 26px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 26px 1px rgba(0, 0, 0, 0.75);
   width: 100%;
   border-radius: 10px;
   align-content: center;
-  padding: 50px 0px;
+  padding: 40px 0px;
   margin-top: 10%;
 }
 
@@ -22,18 +28,61 @@ button {
   cursor: pointer;
   border: none;
   width: 60%;
-
+  background: #011849;
+  color: #ffffff;
+  height: 30px;
+  margin: 10px;
 }
 
 .ipt {
   border: none;
   width: 80%;
   border-bottom: 1px solid #2b2b2b;
+  margin: 20px 20px;
+  height: 20px;
+}
+.ipt:hover {
+  background: #83838341;
 }
 
-.ipt:hover{
-  background: #c7fff67e;
+button:hover {
+  background: #021583;
 }
+
+img{
+  width: 30%;
+  height: 100px;
+}
+
+.mod{
+   background: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   position: fixed;
+   top: 12%;
+   left: 26vw;
+   border: 1px solid black;
+   padding: 10px 10px;
+   justify-content: center;
+   height: 80%;
+   width: 40%;
+   transition: all .5s;
+   -webkit-box-shadow: -186px 86px 300px 200px rgba(0,0,0,0.75);
+   -moz-box-shadow: -186px 86px 300px 200px rgba(0,0,0,0.75);
+   box-shadow: -186px 86px 300px 200px rgba(0, 0, 0, 0.89);
+   
+  }
+
+  .btnModal{
+    width: 50%;
+  }
+
+  .carnet{
+    padding-top: 20px;
+    background: hsla(202, 94%, 87%, 0.906);
+    border: 1px solid black;
+    height: 80%;
+    justify-content: center;
+  }
 
 /* *{
   padding: 0;
